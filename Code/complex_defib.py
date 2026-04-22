@@ -126,7 +126,7 @@ EVENT_CONFIG = {
             "name": "defibrillation",
             "type": "defib_stimulus",
             "time": 3100.0,
-            "amplitude": 0.7,
+            "amplitude": 0.62,
             "radius": 0,
             "mode": "add",
         }, 

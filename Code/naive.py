@@ -87,7 +87,7 @@ EVENT_CONFIG = {
             "name": "global_shock",
             "type": "domain_stimulus",
             "time": 1500.0,
-            "amplitude": 0.41,
+            "amplitude": 0.42,
             "mode": "add",
         },
     ]
@@ -152,7 +152,7 @@ aby[2, :-1] = ay_lower
 # Snapshot times
 # -----------------------------------------
 snapshot_times = [1500.0, 1600.0, 1750.0]
-snapshot_times = [1500.0, 1750.0, 2250.0]
+#snapshot_times = [1500.0, 1750.0, 2250.0]
 snapshot_indices = {int(round(ts / dt)): ts for ts in snapshot_times}
 snapshots_u = {}
 snapshots_v = {}
