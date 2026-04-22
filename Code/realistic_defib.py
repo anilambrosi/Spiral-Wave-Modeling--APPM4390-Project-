@@ -184,7 +184,7 @@ aby[2, :-1] = ay_lower
 # -----------------------------------------
 # Snapshot times
 # -----------------------------------------
-snapshot_times = [300.0, 1400.0, 1900.0, 2100.0, 2200.0, 2500.0]
+snapshot_times = [300.0, 1400.0, 1900.0, 2000.0, 2150.0, 2500.0]
 snapshot_indices = {int(round(ts / dt)): ts for ts in snapshot_times}
 snapshots_u = {}
 snapshots_v = {}
