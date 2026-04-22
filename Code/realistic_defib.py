@@ -60,7 +60,7 @@ g_th = 0.04
 # --------------------------------
 # Simulation time
 # --------------------------------
-T_final = 3000.0
+T_final = 2500.0
 n_steps = int(T_final / dt)
 
 # ----------------------------
@@ -114,14 +114,15 @@ EVENT_CONFIG = {
              "mode": "add",
         },
         {
-             "name": "normal_5",
-             "type": "point_stimulus",
+             "name": "defibrillation",
+             "type": "defib_stimulus",
              "time": 2000.0,
              "amplitude": 1.0,
-             "center": (3.0, 3.0),
-             "radius": 0.25,
+             "radius": 0,
              "mode": "add",
-        }
+
+        },
+
     ]
 }
 
@@ -129,7 +130,7 @@ EVENT_CONFIG = {
 # Animation settings
 # ----------------------------
 frame_every = 20
-animation_interval = 1
+animation_interval = 0.1
 animation_start_time = 0.0
 
 # ----------------------------
